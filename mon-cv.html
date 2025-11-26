@@ -1,17 +1,19 @@
-<!DOCTYPE html>
-<html lang="fr">
+<!DOCTYPE html> <!--définit le type de fichier-->
+<html lang="fr"> <!--définit la langue du site-->
 
-<head>
+<head> <!--Contient le backend du site, tout ce qui se fait en coulisse et qui n'est pas visible à l'utlisateur-->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Adapte l'affichage du système à la taille de l'écran du support-->
     <title>Document</title>
+    <title>Test CSS</title>
+    <link rel="stylesheet" href="css/style.css"> <!--Lier le fichier CSS au fichier HTML-->
 </head>
 
-<body>
-    <main>
-    <article>
-        <h1>Michaël Noiret</h1>
-        <p>30 ans</p>
+<body> <!--Contient le Frontend du site tout ce qui est visible sur le site à l'utilisateur-->
+    <main> <!--Contenu principal-->
+    <article> <!--Contenu autonome-->
+        <h1>Michaël Noiret</h1> <!--Titres-->
+        <p>30 ans</p> <!--Paragraphes-->
         <p>12 rue du Cros Vieil, 06400 Cannes</p>
         <p>07.82.21.71.49</p>
         <p>noiret.michael@hotmail.fr</p>
@@ -22,30 +24,30 @@
         <p>Minutieux, autonome & rigoureux</p>
     </article>
     <article>
-        <h3>COMPETENCES</h3>
+        <h3 class="surligner-titre">COMPETENCES</h3>
         <p>DEVELOPPEMENT:</p>
-        <section>
+        <section> <!--Section thématique-->
         <h4>Mes compétences</h4>
-        <lo>
-            <li><img src="Images/Python-logo-notext.svg.png" alt="Logo Python"></li>
+        <lo> <!--Liste ordonée-->
+            <li><img src="Images/Python-logo-notext.svg.png" alt="Logo Python"></li> <!--Intégration image(img), élèment d'une liste(li), Attribut pertinent(alt)-->
             <li><img src="Images/png-clipart-html-js-and-css-logo-cascading-style-sheets-javascript-html-css3-jquery-logo-miscellaneous-text-thumbnail.png" alt="Logos HTML, CSS, JS"</li>
         </lo>
         </section>
         <p>Novice Python, notions HTML, CSS, JavaScript</p>
     </article>
-    <article>
+    <article class="Background-image">
     <p>LIBRE-SERVICE:</p>
     <p>Connaissances des techniques de mise en rayon</p>
     <p>Entretenir l'espace de vente</p>
     <p>Utilisation d'engins de manutentions non motorisés (transpalette, diable...)</p>
     <p>Maitrise des procédures d'encaissement</p>
-    <p>Manutention</p>
+    <p class="center-paragraphe">Manutention</p>
     <p>Connaissances des règles de sécurité</p>
     <p>Port des EPI (Equipement de Protection Individuel)</p>
     <p>Maitrise de la posture de sécurité</p>
     </article>
     <article>
-        <h5>EXPERIENCES PROFESSIONNELLES</h5>
+        <h5 id="surligner-titre" >EXPERIENCES PROFESSIONNELLES</h5>
         <p>2018-2025 Employé Libre-Service - Franprix Cannes</p>
         <p>2018 Employé polyvalent au STOCKAGE - Monoprix Cannes</p>
         <p>2018 Employé Libre-Service - Monop' Forville Cannes</p>
@@ -66,10 +68,14 @@
         <p>2014 Bac Pro SEN (Système Electronique et Numérique) Mention assez bien Lycée professionnel Alfred Hutinel
             Cannes la Bocca</p>
     </article>
-    <footer>
-        <a href="https://github.com/michaelnoiret-a11y"> alt="Lien Github"</a>
+    <article class=" test">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui est totam delectus maiores eveniet magni consequatur sunt quos laboriosam vitae distinctio beatae, fugit laudantium expedita ratione. Nobis quaerat voluptatibus voluptatem!</p>
+    </article>
+    </main>
+    <footer> <!-- Pied de page-->
+        <a href="https://github.com/michaelnoiret-a11y"> alt="Lien Github"</a> <!--Intégrations de liens-->
         <a href="Cv/Cv rapide.odt"> alt="Lien Cv"</a>
     </footer>
 </body>
-</main>
+
 </html>

@@ -1,0 +1,79 @@
+body {
+      background-image: url("../Fond.jpg");
+  background-size: cover;
+  background-repeat: no-repeat, repeat;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+    text-emphasis: initial;
+    font: bold;
+}
+
+h2 {
+    color: blanchedalmond;
+    text-align: center;
+    text-emphasis: initial;
+    font: bold;
+}
+
+h3 {
+    color: red;
+    text-align: center;
+    text-emphasis: initial;
+    font: bold;
+}
+
+h4 {
+    color: blue;
+    text-align: center;
+    text-emphasis: initial;
+    font: bold;
+}
+
+h5 {
+    color: blanchedalmond;
+    text-align: center;
+    text-emphasis: initial;
+    font: bold;
+}
+
+h6 {
+    color: red;
+    text-align: center;
+    text-emphasis: initial;
+    font: bold;
+}
+.center-paragraphe{
+    text-align: center;
+
+}
+
+.surligner-titre{
+    text-decoration: underline;
+}
+
+#surligner-titre {
+    text-decoration: underline;
+}
+
+
+.test{
+  background-image: url("Fond.jpg");
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+a:hover {
+    color: yellow;
+}
+
