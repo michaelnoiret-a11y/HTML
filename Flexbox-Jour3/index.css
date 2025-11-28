@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: gray;
+    padding: 10px;
+}
+.header a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.img-flex-index{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+h1{
+    text-align: center;
+      font-family: "Pacifico", cursive;
+
+}
+
+p{
+    text-align: center;
+    
+}
+
+.détail-bouquets {
+    width: 33%;
+    padding: 10px;
+}
+
+.détail-bouquets p{
+    text-align: justify ;
+}
+
+h3{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+img{
+    width: 200px;
+    height: 145px;
+    object-fit: cover;
+}
+
+footer{
+    width: 100%;
+    height: 6vh;
+    background-color: gray;
+}
+

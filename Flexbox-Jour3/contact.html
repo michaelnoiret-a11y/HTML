@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.html">
+</head>
+<body>
+    <header class="header">
+        <nav class="flexbox">
+            <a href="/Flexbox-Jour3/index.html">Home</a>
+            <a href="/Flexbox-Jour3/entreprise.html">Entreprise</a>
+            <a href="/Flexbox-Jour3/realisations.html">Réalisations</a>
+            <a href="/Flexbox-Jour3/contact.html">Contact</a>
+        </nav>
+        <input type="search"></input type="search">
+    </header>
+    <main>
+    <form action="/Flexbox-Jour3/index.html" method="post">
+      <ul>
+        <li><select id="civilité">
+            <option value="Mme">Madame</option>
+            <option value="Mr">Messieur</option>
+        </select></li>
+        <li>
+            <label for="name">Nom&nbsp;:</label>
+            <input type="text" id="name" name="user_name" />
+        </li>
+        <li>
+            <label for="mail">E-mail&nbsp;:</label>
+            <input type="email" id="mail" name="user_mail" />
+        </li>
+        <li>
+            <label for="msg">Message&nbsp;:</label>
+            <textarea id="msg" name="user_message">                
+            </textarea>
+        </li>
+            <fieldset>
+                <legend>Veuillez accepter la politique de confidentialité de l'entreprise </legend>
+                <div>
+                    <input type="checkbox" id="">
+                </div>
+            </fieldset>
+            
+        </li>
+      </ul>
+      <div class="button">
+            <button type="submit">Envoyer le message</button>
+        </div>  
+    </form>
+    </main>
+    <footer></footer>
+</body>
+</html>

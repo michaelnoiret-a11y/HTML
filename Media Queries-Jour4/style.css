@@ -1,0 +1,16 @@
+
+@media (width <= 767px){
+
+}
+
+@media (768 <= width <= 1599px){
+    
+}
+
+@media (width >= 1600px){
+
+}
+
+.background-color{
+background-color:#88c1d0 ;
+}
